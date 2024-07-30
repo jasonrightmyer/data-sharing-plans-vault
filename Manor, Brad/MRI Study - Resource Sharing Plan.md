@@ -56,7 +56,3 @@ Only those individuals listed on the approved IRB protocol will have access to p
 **Element 6: Oversight of Data Management and Sharing:**
 
 Monitoring and compliance with the Data Management and Sharing Plan will occur at a minimum of every six months and will be the responsibility of the project’s Principal Investigators (Dr. Manor and Dr. Hausdorff). The plan will be implemented and managed by professional staff working under the direction of the PIs.
-
----
-
- [[BM1]](#_msoanchor_1)This is the word-for-word sentence that the NIA asked us to include.  Are you suggesting we tweak the wording to something like “Sharing of clinical trial data accompanying each publication of primary results...” in order to not promise archiving the entire study dataset??
