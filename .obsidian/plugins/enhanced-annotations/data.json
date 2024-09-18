@@ -31,7 +31,7 @@
   },
   "outline": {
     "fontSize": 12,
-    "showLabelsFilter": false,
+    "showLabelsFilter": true,
     "showSearchInput": true,
     "hiddenLabels": [],
     "hiddenTypes": []
