@@ -11,11 +11,11 @@ The secondary data in this application are already available through publicly av
 
 **C.        Metadata, other relevant data, and associated documentation:**
 
-The study protocols and statistical analysis plans will be made available to facilitate interpretation, including  a record of changes made and the accompanying rationale.
+All documentation to be made publicly available will include the study protocol, analysis plan, sample informed consent, survey forms, and data dictionary. Each variable in the data dictionary will include the variable name, a brief description of the variable, the question number and question text from the questionnaire when appropriate, the variable label, value labels, and standard codes for missing values, including codes for non-applicable, “don’t know,” and refusal. This documentation will be provided in portable document format (PDF) or related content-types as appropriate to facilitate interoperability (e.g. Excel, CSV, etc.). We aim to make the study methods, results, and analyses reproducible.
 
 **Element 2: Related Tools, Software and/or Code:**
 
-Datasets will be provided in common data formats including .sas7bdat data storage or transport format (XPORT) files for SAS (SAS Institute, Cary, NC) and comma-delimited datasets. While SAS is not open-source software, there are several freely available software packages for reading .sas7bdat datasets into other statistical programs, including the _haven_ package1 for the R Statistical Computing Environment.2 Due to the nature of the datasets we will analyze, data management is performed in SAS, which is able to more effectively handle data management tasks that must be completed to make the data analysis-ready. Once analysis-ready, statistical analyses and data visualization may be conducted using R software.
+Datasets will be provided in common data formats including .sas7bdat data storage or transport format (XPORT) files for SAS (SAS Institute, Cary, NC) and comma-delimited datasets. While SAS is not open-source software, there are several freely available software packages for reading .sas7bdat datasets into other statistical programs, including the _haven_ package1 for the R Statistical Computing Environment.2 Due to the nature of the datasets we will analyze, data management is performed in SAS, which is able to more effectively handle data management tasks that must be completed to make the data analysis-ready. Once analysis-ready, statistical analyses and data visualization may be conducted using R software.  Additionally, the code used for the data preprocessing and data analysis will be shared via GitHub repository to support replication of the analyses and reuse of the implemented methods.
 
 **Element 3: Standards:**
 
@@ -25,15 +25,20 @@ The data for Aims 1 and the worker survey data in Aim 3 will be held in secure c
 
 **A.**    **Repository where scientific data and metadata will be archived:**
 
-All of the primary survey data is controlled by Marcus Institute, whereas the patient level data is controlled by the LTCDC, and cannot be shared. For primary survey data that will be shared, we will archive metadata in ???Github or other repository.
+All of the primary survey data is controlled by Marcus Institute, whereas the patient level data is controlled by the LTCDC, and cannot be shared. De-identified survey data and all metadata will be archived within the Marcus Institute Data Archiving Service (MIDAS), a publicly accessible website built on the CKAN (Comprehensive Knowledge Archive Network) open-source data management platform. The MIDAS system is maintained and hosted by HSL. 
 
 **B.    How scientific data will be findable and identifiable:**
 
-Some of the data for the proposal is already available on CMS’s public website, NH Compare. Data are thus easily findable for the research community through systems that have existed for many years before this application for funding. To make data even more readily identifiable, our research team will provide detailed protocol and analytic plans on public facing websites (clinicaltrials.gov). Data for Aim 3 worker surveys will be shared in aggregate given the very small number of facilities (n=3) to protect worker confidentiality.
+Some of the data for the proposal is already available on CMS’s public website, NH Compare. Data are thus easily findable for the research community through systems that have existed for many years before this application for funding. To make data readily identifiable, our research team will provide detailed protocol and analytic plans on public facing websites (clinicaltrials.gov). Data for Aim 3 worker surveys will be shared in aggregate given the very small number of facilities (n=3) to protect worker confidentiality.  These data will be available through the MIDAS system.
+
+The MIDAS repository supports standard search and metadata query features through the CKAN platform interface.  Furthermore, the repository is linked to the Marcus Institute and HSL websites and indexed by several public search engines. Each dataset will be issued a persistent unique identifier and will be organized by publication; however, access to a given dataset will not require publication association.
+
 
 **C.    When and how long the scientific data will be made available:**
 
 Researchers and other individuals can request access to the datasets at any time. While the DUAs of CMS and AHCA do not allow for data to be made publicly and unrestrictedly available, anyone can access the datasets upon reasonable request from each of those data controllers, which decide whether to grant access in response to each request. The standard duration of access is determined by the DUAs. Each of those data controllers has maintained the long-term control of the datasets.
+
+Sharing of survey data is expected at the time of publication of the primary results or within 9 months of database lock, whichever comes first. At minimum, per HSL’s Record Management, Retention, Disposition and Destruction Policy, all data will be retained for at least seven years after project completion or the sponsored award agreement end date as stipulated in its terms and conditions. 
 
 **Element 5: Access, Distribution, or Reuse Considerations**
 
@@ -51,7 +56,7 @@ We will utilize procedures required by the data controllers to ensure compliance
 
 **Element 6: Oversight of Data Management and Sharing:**
 
-All responsibilities will be shared with the MPIs, Drs. Sarah Berry, Mark Toles and co-I Alyssa Dufour. We have budgeted salary support to ensure that technical staff are appropriately supported to create software code, documentation, and other resources for the research community. We have additionally budgeted for Dr. Dufour’s time, to oversee and manage the Data Management and Sharing Plan.
+All responsibilities will be shared with the MPIs, Drs. Sarah Berry, Mark Toles and co-I Alyssa Dufour. We have budgeted salary support to ensure that technical staff are appropriately supported to create software code, documentation, and other resources for the research community. Monitoring and compliance with the Data Management and Sharing Plan will occur at a minimum of every six months and will be the responsibility of Dr. Dufour the project’s co-investigator. We have additionally budgeted for Dr. Dufour’s time, to oversee and manage these operations.
 
 **REFERENCES**
 
