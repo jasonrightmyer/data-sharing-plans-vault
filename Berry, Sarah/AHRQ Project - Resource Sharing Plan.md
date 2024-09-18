@@ -1,7 +1,5 @@
-___
-# DATA MANAGEMENT AND SHARING PLAN
-
-# Element 1: Data Type
+**DATA MANAGEMENT AND SHARING PLAN**
+**Element 1: Data Type**
 
 **A.**    **Types and amount of scientific data expected to be generated in the project:**
 
@@ -15,43 +13,43 @@ The secondary data in this application are already available through publicly av
 
 The study protocols and statistical analysis plans will be made available to facilitate interpretation, including  a record of changes made and the accompanying rationale.
 
-# Element 2: Related Tools, Software and/or Code:
+**Element 2: Related Tools, Software and/or Code:**
 
 Datasets will be provided in common data formats including .sas7bdat data storage or transport format (XPORT) files for SAS (SAS Institute, Cary, NC) and comma-delimited datasets. While SAS is not open-source software, there are several freely available software packages for reading .sas7bdat datasets into other statistical programs, including the _haven_ package1 for the R Statistical Computing Environment.2 Due to the nature of the datasets we will analyze, data management is performed in SAS, which is able to more effectively handle data management tasks that must be completed to make the data analysis-ready. Once analysis-ready, statistical analyses and data visualization may be conducted using R software.
 
-# Element 3: Standards:
+**Element 3: Standards:**
 
 The data for Aims 1 and the worker survey data in Aim 3 will be held in secure computing environments located at Marcus Institute for Aging Research. The qualitative data for Aim 2 will be stored at the University of North Carolina, Chapel Hill. The data will be formatted using standardized data dictionaries and procedures. Any data management work to conduct reformats will be carefully documented in the software code. In addition, any variable renaming will follow relevant conventions (e.g., consistent maximum number characters, all uppercase letters or numbers, always starting with a letter). Similar standardized conventions will be applied to the naming of all analytic datasets produced through management of the existing secondary data. In general, measurements of time will be converted to a relative measure of the number of days (or months) since the start of follow-up. A data dictionary will be generated. See environment and resources for additional description of computing and storage standards.
 
-# Element 4: Data Preservation, Access, and Associated Timelines
+**Element 4: Data Preservation, Access, and Associated Timelines**
 
 **A.**    **Repository where scientific data and metadata will be archived:**
 
 All of the primary survey data is controlled by Marcus Institute, whereas the patient level data is controlled by the LTCDC, and cannot be shared. For primary survey data that will be shared, we will archive metadata in ???Github or other repository.
 
-# B.    How scientific data will be findable and identifiable:
+**B.    How scientific data will be findable and identifiable:**
 
 Some of the data for the proposal is already available on CMS’s public website, NH Compare. Data are thus easily findable for the research community through systems that have existed for many years before this application for funding. To make data even more readily identifiable, our research team will provide detailed protocol and analytic plans on public facing websites (clinicaltrials.gov). Data for Aim 3 worker surveys will be shared in aggregate given the very small number of facilities (n=3) to protect worker confidentiality.
 
-# C.    When and how long the scientific data will be made available:
+**C.    When and how long the scientific data will be made available:**
 
 Researchers and other individuals can request access to the datasets at any time. While the DUAs of CMS and AHCA do not allow for data to be made publicly and unrestrictedly available, anyone can access the datasets upon reasonable request from each of those data controllers, which decide whether to grant access in response to each request. The standard duration of access is determined by the DUAs. Each of those data controllers has maintained the long-term control of the datasets.
 
-# Element 5: Access, Distribution, or Reuse Considerations
+**Element 5: Access, Distribution, or Reuse Considerations**
 
 **A.**    **Factors affecting subsequent access, distribution, or reuse of scientific data:**
 
 Data will be available for investigators providing an Institutional Review Board (IRB)/Ethics approval or certification of exemption, and agreeing to the terms and conditions of the DUAs with each of the data controllers. Data will be available unless prohibited by the informed consent process or the data controllers. Standard terms of the DUAs for each of the datasets prevents redistribution and re-identification of individuals.
 
-# B.    Whether access to scientific data will be controlled:
+**B.    Whether access to scientific data will be controlled:**
 
 Access to the primary survey data will be controlled by Marcus Institute for Aging Research. To request access to the data, researchers will be required to use the standard data access processes that have been established by each data controller.
 
-# C.    Protections for privacy, rights, and confidentiality of human research participants:
+**C.    Protections for privacy, rights, and confidentiality of human research participants:**
 
 We will utilize procedures required by the data controllers to ensure compliance with the Health Insurance Portability and Accountability Act (HIPAA) and other privacy measures. For Aim 1 survey data, each participant will be provided with a masked study identifier that will be used subsequently to link with study data in shared datasets. All measurements of time will be converted to a relative measure of the number of days (or months) since the start of follow-up whenever possible. Data will be obscured so that extreme values for any particular variable (such as centenarian participants) are aggregated so as not to be identifiable. No cell containing a value of between 1 and 10 will be reported directly. For Aim 3 we will take the additional precaution of aggregating the worker survey data at the facility level (n=3). Given the very low risk of this study aimed to improve the well-being of nursing home workers, we will seek waivers of written informed consent for workers and waivers of informed consent for patients.
 
-# Element 6: Oversight of Data Management and Sharing:
+**Element 6: Oversight of Data Management and Sharing:**
 
 All responsibilities will be shared with the MPIs, Drs. Sarah Berry, Mark Toles and co-I Alyssa Dufour. We have budgeted salary support to ensure that technical staff are appropriately supported to create software code, documentation, and other resources for the research community. We have additionally budgeted for Dr. Dufour’s time, to oversee and manage the Data Management and Sharing Plan.
 
